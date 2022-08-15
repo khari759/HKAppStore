@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 45px;
+}
+.search-bar {
+  background-color: transparent;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5px;
+}
+.search {
+  border: 0px;
+  background-color: transparent;
+}
+.search-img {
+  width: 25px;
+  height: 25px;
+}
+.tab-items {
+  list-style-type: none;
+  display: flex;
+}
+.apps-card {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
